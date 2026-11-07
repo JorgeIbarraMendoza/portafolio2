@@ -1,0 +1,397 @@
+@font-face{
+    font-family: 'Outfit';
+    src: url('../fuentes/outfit-bold.woff2') format('woff2');
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: 'Work Sans';
+    src: url('../fuentes/work-sans-regular.woff2') format('woff2');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Work Sans';
+    src: url('../fuentes/work-sans-bold.woff2') format('woff2');
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0f0f1a;
+    color: #f8fafc;
+    font-family: "Work Sans";
+}
+
+a{
+    color: #f8fafc;
+    text-decoration: none;
+}
+
+img{
+    display: block;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #161625;
+    border: 1px solid #2a2a45;
+    padding: 14px 80px;
+}
+
+.logo{
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: bold;
+    color: #8b5cf6;
+}
+
+.logo:hover{
+    color: #06b6d4;
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+    width: 420px;
+    margin: 0 auto;
+    background-color: #1e1e35;
+    border: 1px solid #2a2a45;
+    padding: 6px 14px;
+}
+
+.buscador input{
+    width: 360px;
+    margin-left: 8px;
+    border: none;
+    background-color: transparent;
+    color: #f8fafc;
+    font-family: "Work Sans";
+    font-size: 14px;
+}
+
+.iconos a{
+    font-size: 18px;
+    padding: 6px 8px;
+}
+
+nav{
+    margin-left: 24px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a{
+    display: block;
+    color: #94a3b8;
+    font-family: "Outfit";
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 14px;
+}
+
+nav ul li a:hover{
+    color: #f8fafc;
+}
+
+.activo{
+    color: #8b5cf6;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+}
+
+.boton1{
+    background-color: #8b5cf6;
+    color: #ffffff;
+    font-family: "Outfit";
+    font-weight: bold;
+    padding: 12px 22px;
+}
+
+.boton1:hover{
+    background-color: #06b6d4;
+}
+
+.boton2{
+    margin-left: 5px;
+    background-color: transparent;
+    color: #f8fafc;
+    font-family: "Outfit";
+    font-weight: bold;
+    padding: 12px 22px;
+    border: 1px solid #2a2a45;
+}
+
+.boton2:hover{
+    border: 1px solid #8b5cf6;
+}
+
+.comprar{
+    display: block;
+    background-color: #8b5cf6;
+    color: #ffffff;
+    font-family: "Outfit";
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.comprar:hover{
+    background-color: #06b6d4;
+}
+
+.fondo{
+    position: relative;
+}
+
+.imagen{
+    height: 420px;
+}
+
+.contenido{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 220px;
+}
+
+.texto{
+    width: 640px;
+}
+
+.etiqueta{
+    width: 142px;
+    text-align: center;
+    background-color: #1e1e35;
+    color: #8b5cf6;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 12px;
+    margin-bottom: 12px;
+}
+
+.titulo{
+    font-family: "Outfit";
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.descripcion{
+    color: #94a3b8;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.descripcion strong{
+    color: #06b6d4;
+}
+
+.juego{
+    width: 760px;
+    border: 1px solid #2a2a45;
+}
+
+.categorias{
+    padding: 24px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoria{
+    width: 431px;
+    background-color: #161625;
+    border: 1px solid #2a2a45;
+    padding: 14px;
+    text-align: center;
+    font-family: "Outfit";
+    font-weight: bold;
+}
+
+.categoria:hover{
+    border: 1px solid #8b5cf6;
+}
+
+.productos{
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.subtitulo{
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.encabezado{
+    font-family: "Outfit";
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.fila{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.columna3{
+    width: 872px;
+}
+
+.columna4{
+    width: 1168px;
+}
+
+.columna6{
+    width: 1760px;
+}
+
+.tarjeta{
+    width: 280px;
+    background-color: #161625;
+    border: 1px solid #2a2a45;
+}
+
+.tarjeta:hover{
+    border: 1px solid #8b5cf6;
+}
+
+.portada{
+    position: relative;
+}
+
+.portada img{
+    width: 278px;
+    height: 417px;
+    object-fit: cover;
+}
+
+.plataforma{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: #0f0f1a;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 8px;
+}
+
+.descuento{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #8b5cf6;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 8px;
+}
+
+.info{
+    padding: 12px;
+}
+
+.nombre{
+    font-family: "Outfit";
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.estrellas{
+    color: #8b5cf6;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.precio{
+    color: #06b6d4;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.antes{
+    color: #94a3b8;
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.confianza{
+    background-color: #161625;
+    border: 1px solid #2a2a45;
+    padding: 20px;
+    text-align: center;
+}
+
+.ventaja{
+    margin: 0 8px;
+    font-family: "Outfit";
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer{
+    background-color: #161625;
+    border: 1px solid #2a2a45;
+    padding: 30px 215px;
+}
+
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna h4{
+    font-family: "Outfit";
+    color: #06b6d4;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.columna ul{
+    list-style: none;
+}
+
+.columna ul li{
+    margin-bottom: 6px;
+}
+
+.columna ul li a{
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+.columna ul li a:hover{
+    color: #f8fafc;
+}
+
+.derechos{
+    text-align: center;
+    color: #94a3b8;
+    font-size: 12px;
+    margin-top: 20px;
+}

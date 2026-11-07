@@ -1,0 +1,131 @@
+@font-face{
+    font-family: "TablaFont";
+    src: url("../fuentes/inter-regular.woff2") format("woff2");
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "TablaFont";
+    src: url("../fuentes/inter-bold.woff2") format("woff2");
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TablaFont", sans-serif;
+}
+
+body{
+    width: 1044px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+h1{
+    width: 1044px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #142a54;
+}
+
+h2{
+    width: 1044px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #142a54;
+}
+
+.tabla{
+    width: 1044px;
+}
+
+.fila{
+    width: 1044px;
+}
+
+.salto{
+    clear: both;
+}
+
+.celda{
+    width: 56px;
+    height: 66px;
+    float: left;
+    padding: 4px;
+    margin: 1px;
+    color: rgb(2, 2, 2);
+}
+
+.numero{
+    font-size: 10px;
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+
+.simbolo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.nombre{
+    font-size: 8px;
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+
+.masa{
+    font-size: 8px;
+    font-weight: normal;
+}
+
+.hidrogeno{
+    background-color: #e8833f;
+}
+
+.alcalino{
+    background-color: #142a54;
+}
+
+.alcalinoterreo{
+    background-color: #c99a1e;
+}
+
+.transicion{
+    background-color: #1f5fa8;
+}
+
+.posttransicion{
+    background-color: #a3195b;
+}
+
+.metaloide{
+    background-color: #8a6d3b;
+}
+
+.reactivo{
+    background-color: #c9432f;
+}
+
+.halogeno{
+    background-color: #7d8f3c;
+}
+
+.noble{
+    background-color: #1f5c3f;
+}
+
+.lantanido{
+    background-color: #8f8a5e;
+}
+
+.actinido{
+    background-color: #6f7d63;
+}
+
+.vacio{
+    background-color: transparent;
+}
